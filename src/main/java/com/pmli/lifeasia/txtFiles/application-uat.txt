@@ -1,0 +1,15 @@
+# This Port is of UAT
+server.port=2068
+
+#########    Lifeasia Wait   ######################
+lifeasia.connector.wait=0
+
+#########    MQ Connection Property   ######################
+lifeasia.agent.host=10.168.51.156
+lifeasia.agent.port=1460
+lifeasia.agent.user=SUJATHAS
+lifeasia.agent.password=SUJATHAS
+lifeasia.agent.channel=SYSTEM.AUTO.BIZTALK
+lifeasia.agent.queuemanager=MLIMQM
+lifeasia.agent.inputqueuename=UAT.DMS.INPUT.QUEUE
+lifeasia.agent.outputqueuename=UAT.DMS.OUTPUT.QUEUE

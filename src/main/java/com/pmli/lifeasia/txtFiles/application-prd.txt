@@ -1,0 +1,15 @@
+# This Port is of PROD
+server.port=2092
+
+#########    Lifeasia Wait   ######################
+lifeasia.connector.wait=0
+
+#########    MQ Connection Property   ######################
+lifeasia.agent.host=10.168.1.200
+lifeasia.agent.port=1415
+lifeasia.agent.user=DMSAUTO
+lifeasia.agent.password=DMSAUTO@20
+lifeasia.agent.channel=SYSTEM.AUTO.BIZTALK
+lifeasia.agent.queuemanager=MLIMQM
+lifeasia.agent.inputqueuename=PROD.DMS.INPUT.QUEUE
+lifeasia.agent.outputqueuename=PROD.DMS.OUTPUT.QUEUE
